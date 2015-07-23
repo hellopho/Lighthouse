@@ -1,12 +1,13 @@
 header {
     padding-top: 30px;
-    padding-right: 350px;
+    padding-right: auto;
     padding-bottom: 10px;
     padding-left: 30px;
+    background-color: #CFFA6A;
 }
 
 p {
-    background-color: white;
+    color: black;
 }
 
 section header h2 {
@@ -18,3 +19,32 @@ header h1 {
   font-size: 1.2em;
 }
 
+.purple {
+  text-decoration: underline;
+  color: purple;
+}
+
+body {
+  background-color: #956AFA;
+}
+
+#introduction{
+  background-color: #CFFA6A;
+  box-shadow: none;
+}
+
+aside {
+  background-color: #CFFA6A;
+}
+
+aside section {
+  background-color: #CFFA6A;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}

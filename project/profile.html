@@ -1,8 +1,10 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Meraki Signup</title>
 
+
+
+  <head>
+    <title>Meraki Profile</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -11,19 +13,20 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+   
     <link rel="stylesheet" href="public/stylesheets/style.css">
-
+  
   </head>
-
   <body>
     <section></section>
     <p></p>
 
+
+
     <div class="form-wrapper">
-      <form action="/signup" method="POST" class="form-group">
-      
-      <h1 class="form-signin-heading">meraki!</h1>
+      <form action="/profile/edit" method="POST" class="form-group " >
+
+      <h1 class="form-signin-heading">meraki!</h1> 
 
       <div class="form-group form-group-lg">
         <!-- <label for="first-name">First Name</label> -->
@@ -46,13 +49,29 @@
           <input type="password" name="signup_password" id="password" class="form-control" placeholder="password" />
       </div>
 
+      <!-- <label for="radio">Gender</label> -->
+        <div class="radio form-group-lg text-center">
+            <input type="radio" name="gender" id="female" /> Female 
+
+            &nbsp; &nbsp; &nbsp; &nbsp;
+        
+            <input type="radio" name="gender" id="male" /> Male 
+        </div>
+
       <div class="form-group form-group-lg text-center">
-        <button type="submit" class="btn">Sign Up</button>
+        <button type="submit" class="btn">Submit</button>
       </div>
-     
-      </form>
+
+      
+
+    </form>
   </div>
+
+
   </body>
+
+
+
 </html>
 
 
